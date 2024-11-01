@@ -1,0 +1,15 @@
+/* styles.css */
+body {
+    margin: 0;
+    background-color: #121212;
+    overflow: hidden;
+}
+
+#web-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Allows clicking through the canvas */
+}
